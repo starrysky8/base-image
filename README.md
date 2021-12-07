@@ -1,2 +1,2 @@
-# base-image
+# Base Image
 Base Image
