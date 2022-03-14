@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TAG="ubuntu-py3:v0.1"
+TAG="ubuntu-py3:v0.2"
 REGISTRY="starrysky8"
 
 cd "$(dirname "$0")" || exit
