@@ -2,4 +2,4 @@
 
 ## TAG
 
-ubuntu-py3:v0.1
+ubuntu-py3:v0.2
