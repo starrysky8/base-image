@@ -2,12 +2,9 @@ FROM ubuntu:20.04
 
 LABEL maintainer="<starrysky starrysky8888@qq.com>"
 
-# close interaction
-ENV DEBIAN_FRONTEND noninteractive
-
 COPY clean-layer.sh /bin
 
-RUN apt-get update \
+RUN DEBIAN_FRONTEND =noninteractive apt-get update \
     && apt-get install -yq --no-install-recommends \
     vim \
     wget \
